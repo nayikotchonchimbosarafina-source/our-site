@@ -1,0 +1,176 @@
+
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #0f0f14;
+    color: #f2f2f2;
+    margin: 0;
+}
+
+nav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    color: #8f4aa8;
+}
+
+main {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: rgba(255,255,255,0.03);
+    border-radius: 26px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.6);
+}
+
+article.mespublications {
+    text-decoration-color: #0f0f14;
+}
+
+
+header {
+    background-color: #9a1b8f;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+footer {
+    background-color: #9a1b8f;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+article.mespublications {
+   background-color: #383638; 
+   border: 16px solid #9a1b8f;         
+    border-radius: 10px; 
+    margin: 20px;
+    padding: 20px;
+} 
+
+.mespublications {
+    font-style: italic;
+}
+
+
+#listemenu {
+    list-style: none;
+    padding: 0;
+}
+
+#listemenu li {
+    display: inline;
+    margin: 15px 15px;
+}
+
+.mespublications {
+    border-radius: 14px;
+    margin: 40px 0;
+    padding: 30px;
+    font-style: italic;
+    line-height: 1.8;
+}
+
+.mespublications.vivant {
+    background-color: rgba(143, 74, 168, 0.15);
+    border-left: 6px solid #8f4aa8;
+}
+
+.mespublications.vide {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-left: 6px solid #444;
+}
+
+.incipit {
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+
+
+h2.folle {
+    text-align: center;
+    font-size: 36px;       
+    margin: 60px 0 30px;
+    letter-spacing: 4px;  
+    font-weight: 900px; 
+    color: #c59cbe;
+}
+
+
+
+.page-auteur {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url("vita.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.auteur-header {
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.55);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 80px;
+    text-align: center;
+    color: #f2f2f2;
+}
+
+
+.auteur-header h1 {
+    font-size: 38px;
+    font-style: italic;
+    max-width: 800px;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+
+.tiktok-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 28px;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.tiktok-link:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.auteur-header {
+    animation: fadeIn 2s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+@media screen and (max-width: 675px) {
+
+    #listemenu li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+}
